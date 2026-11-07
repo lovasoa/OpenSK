@@ -2099,3 +2099,7 @@ mod test {
         );
     }
 }
+
+#[cfg(test)]
+#[path = "client_pin/hardware_test.rs"]
+mod hardware_test;
